@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "./ui/card";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
