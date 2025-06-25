@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "./ui/card";
 import { Checkbox } from "./ui/checkbox";
 
 const Login = () => {
