@@ -94,13 +94,13 @@ const Hero = ({ setSearchQuery }) => {
         {/* Call-to-Action Buttons */}
         <div className="mt-6 flex justify-center gap-4">
           <button
-            
+
             className="bg-blue-600 hover:bg-blue-700 transition-all text-white px-6 py-3 text-sm md:text-base font-medium rounded-lg"
           >
             Explore Packages
           </button>
           <button
-            
+
             className="bg-gray-700 hover:bg-gray-800 transition-all text-white px-6 py-3 text-sm md:text-base font-medium rounded-lg"
           >
             Contact Us
@@ -108,24 +108,24 @@ const Hero = ({ setSearchQuery }) => {
         </div>
 
         {/* Features Section */}
-          <div className="mt-12 max-w-xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-gray-300">
-              <div className="flex items-center gap-3">
-                <MapPin className="h-6 w-6 text-blue-500" />
-                <span>Top Destinations</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Phone className="h-6 w-6 text-blue-500" />
-                <span>24/7 Support</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Search className="h-6 w-6 text-blue-500" />
-                <span>Affordable Prices</span>
-              </div>
+        <div className="mt-12 max-w-xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-gray-300">
+            <div className="flex items-center gap-3">
+              <MapPin className="h-6 w-6 text-blue-500" />
+              <span>Top Destinations</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <Phone className="h-6 w-6 text-blue-500" />
+              <span>24/7 Support</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <Search className="h-6 w-6 text-blue-500" />
+              <span>Affordable Prices</span>
             </div>
           </div>
+        </div>
 
-        
+
       </motion.div>
     </div>
   );

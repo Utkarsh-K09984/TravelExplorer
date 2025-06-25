@@ -1,10 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Navbar from "./Components/Navbar";
-
-import Hero from "./components/Hero";
-import DestinationsGrid from "./components/DestinationGrid";
-import DestinationModal from "./components/DestinationModel";
+import Hero from "./Components/Hero";
+import DestinationsGrid from "./Components/DestinationGrid";
+import DestinationModal from "./Components/DestinationModel";
 import CartModal from "./Components/CartModal";
 import Footer from "./Components/Footer";
 import { destinationsData } from "./Data/DestinationsData";
@@ -15,8 +14,8 @@ import CartPage from "./Components/CartPage";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import Profile from "./Components/Profile";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card";
+import { Button } from "@/Components/ui/button";
 
 function App() {
   const [selectedDestination, setSelectedDestination] = useState(null);
